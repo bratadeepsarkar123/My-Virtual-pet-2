@@ -55,11 +55,6 @@ function draw(){
 
         }
         pop();
-      // text(mouseX+","+mouseY,500,500)
-      
-
-
-      //console.log(mouseX,mouseY)
     }
    
    

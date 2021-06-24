@@ -11,7 +11,7 @@ bo=0;
 function preload(){
     milkPng=loadImage("Milk.png");
     dogPng=loadImage("Dog.png");
-    hDogPng=loadImage("happyDog.png");
+    hDogPng=loadImage("happydog.png");
 }
  function setup(){
     createCanvas(windowWidth-50,windowHeight-50);

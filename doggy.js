@@ -9,7 +9,7 @@ class Dogs{
     display(){
         if(bo===0){ this.dog.addImage(dogPng);} else if(bo===1){ this.dog.addImage(hDogPng);}           
         this.dog.scale=0.4*width/1366
-        if(hour()+minute()/100 > lastHr+lastMin.100){ this.dog.addImage(dogPng);}
+       // if(hour()+minute()/100 > lastHr+lastMin.100){ this.dog.addImage(dogPng);}
     }
     
 }

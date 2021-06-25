@@ -4,6 +4,7 @@ class Milk{
         mRef.on("value",function(data){
             foodNo=data.val();
         });
+        //
 
         this.feed=createButton('Feed');
         this.feed1=createButton('REFILL');

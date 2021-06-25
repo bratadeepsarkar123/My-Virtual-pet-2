@@ -45,7 +45,9 @@ function draw(){
         lastMinRef.on("value",(data)=>{
             lastMin=data.val();
 			if(lastHr+lastMIn/100<hour()+minute()/100){
-				   dog.dog.addImage(dogPng)}
+				   dog.dog.addImage(dogPng)}else{
+				   dog.dog.addImage(hDogPng)}
+					   
 
          
         });

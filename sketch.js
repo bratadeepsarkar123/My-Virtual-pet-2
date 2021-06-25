@@ -44,9 +44,8 @@ function draw(){
         lastMinRef=database.ref('time/minute');
         lastMinRef.on("value",(data)=>{
             lastMin=data.val();
-			if(lastHr+lastMIn/100<hour()+minute()/100){
-				   dog.dog.addImage(dogPng)}else{
-				   dog.dog.addImage(hDogPng)}
+			if(lastHr+lastMIn/100<hour()+minute()/100){bo=0}else{bo=1}
+				
 					   
 
          

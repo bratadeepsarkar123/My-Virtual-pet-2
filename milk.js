@@ -45,7 +45,7 @@ class Milk{
                     foodNo=foodNo-1
                     milk1.update(foodNo)
                     this.click++
-                    dog.dog.addImage(dogImg)
+                    dog.dog.addImage(dogPng)
                     lastHr=database.ref('time').update({
                         hour:hour(),
                         minute:minute()
@@ -53,7 +53,7 @@ class Milk{
                 }   
             }else{
                 if(lastHr+lastMin/100<hour()+minute()/100){
-                    dog.dog.addImage(dogImg)
+                    dog.dog.addImage(dogPng)
                 
                     bo=1
                     clear();

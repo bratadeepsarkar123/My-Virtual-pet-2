@@ -44,6 +44,10 @@ function draw(){
         lastMinRef=database.ref('time/minute');
         lastMinRef.on("value",(data)=>{
             lastMin=data.val();
+			if(lastHr+lastMIn/100<hour()+minute()/100){
+				   dog.dog.addImage(dogPng)}
+
+         
         });
         push();
         textSize(40*width/1366)
